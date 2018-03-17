@@ -2,12 +2,9 @@
 #include <string.h>
 #include <ctype.h>
 
-/*
-   Devin Logan
-   2/25/2018
-   Section 2, Assignment 3
-   This program converts between binary, hexadecimal, octal, and decimal numbers.
-*/
+// This menu-driven program displays values in various base representations 
+// (binary, hexadecimal, octal, decimal)based on the current value of the 
+// program’s accumulator. It also perform various bitwise and arithmetic operations. 
 
 void add (short *acc, char mode);
 void subtract (short *acc, char mode);
